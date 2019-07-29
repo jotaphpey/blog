@@ -8,8 +8,10 @@
 return [
     'authors' => [
         'base_uri' => env('AUTHORS_SERVICE_BASE_URI'),
+        'secret' => env('AUTHORS_SERVICE_SECRET'),
     ],
     'articles' => [
         'base_uri' => env('ARTICLES_SERVICE_BASE_URI'),
+        'secret' => env('ARTICLES_SERVICE_SECRET'),
     ],
 ];

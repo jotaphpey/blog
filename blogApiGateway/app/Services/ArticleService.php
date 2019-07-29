@@ -18,9 +18,15 @@ class ArticleService{
      */
     public $baseUri;
 
+    /**
+     * @var
+     */
+    public $secret;
+
     public function __construct()
     {
         $this->baseUri = config('services.articles.base_uri');
+        $this->secret = config('services.articles.secret');
     }
 
     /**
