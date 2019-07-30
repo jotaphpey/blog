@@ -66,7 +66,7 @@
                             @endif
                         @else
                             <li class="nav-item dropdown">
-                                <img style="width: 32px;" class="" src="data:image/png;base64,{{$avatar}}">
+                                <img style="width: 36px;float: left;padding: 5px;" class="" src="data:image/png;base64,{{$avatar}}">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
