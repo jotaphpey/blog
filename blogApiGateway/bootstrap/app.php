@@ -63,9 +63,9 @@ $app->singleton(
 |
 */
 
-// $app->middleware([
-//     App\Http\Middleware\ExampleMiddleware::class
-// ]);
+$app->middleware([
+     App\Http\Middleware\Authenticate::class,
+]);
 
  $app->routeMiddleware([
      'client.credentials' => Laravel\Passport\Http\Middleware\CheckClientCredentials::class,

@@ -27,3 +27,5 @@ $router->group(['middleware' => 'client.credentials'], function() use ($router){
     $router->patch('/authors/{author}', 'AuthorController@update');
     $router->delete('/authors/{author}', 'AuthorController@destroy');
 });
+
+$router->post('/signup', 'UserController@signup');
