@@ -10,13 +10,13 @@ use Illuminate\Support\Facades\Redirect;
 
 class IndexController extends AuthorController {
 
+
     public function __construct(AuthorService $authorService)
     {
         parent::__construct($authorService);
     }
 
     public function index(Request $request){
-        header("Content-Type:" . 'image/png');
         $author = $this->show(Auth::user()->author_id);
 
         if($author){
@@ -29,12 +29,10 @@ class IndexController extends AuthorController {
             $type = pathinfo($img_path, PATHINFO_EXTENSION);
             $base64 = base64_encode($img_data);
             $author->image = $base64;
-        }else{
-            /*$base64 = base64_encode($author->image);
-            $author->image = $base64;*/
         }
 
         return view('blog.author.index', ["author" => $author]);
+
     }
 
     public function updateAuthor(Request $request){

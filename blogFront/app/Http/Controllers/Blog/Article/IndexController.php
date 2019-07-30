@@ -5,12 +5,12 @@ namespace App\Http\Controllers\Blog\Article;
 use App\Services\ArticleService;
 use App\Services\AuthorService;
 use Illuminate\Http\Request;
-
 use App\Http\Controllers\Api\ArticleController;
 use Illuminate\Support\Facades\Auth;
 
 class IndexController extends ArticleController
 {
+
     public function __construct(ArticleService $articleService, AuthorService $authorService)
     {
         parent::__construct($articleService, $authorService);
@@ -29,7 +29,6 @@ class IndexController extends ArticleController
 
 
     public function add(){
-
         return view('blog.article.add');
     }
 
