@@ -4,16 +4,17 @@
     @include('blog.includes.addpost')
 
     <div class="row">
+
         <div class="col-8">
+            @foreach($posts as $post)
             <div class="card">
-                <img src="https://picsum.photos/id/1/5616/3744" class="card-img-top" alt="...">
                 <div class="card-body">
 
                     <div class="blog-post">
-                        <h2 class="blog-post-title">Sample blog post</h2>
-                        <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+                        <h2 class="blog-post-title">{{$post->title}}</h2>
+                        <p class="blog-post-meta">{{ date("F jS, Y", strtotime($post->updated_at)) }} <a href="#">Mark</a></p>
 
-                        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+                        {!! $post->body !!}
                     </div>
 
                     <hr>
@@ -21,7 +22,9 @@
                     <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
                 </div>
             </div>
+            @endforeach
         </div>
+
         <div class="col-3">
 
                 <div class="p-4 mb-3 bg-light rounded">

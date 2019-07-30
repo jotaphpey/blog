@@ -7,6 +7,7 @@ use App\Services\AuthorService;
 use App\traits\ApiResponser;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use App\Http\Controllers\Controller;
 
 class ArticleController extends Controller
 {
@@ -35,7 +36,7 @@ class ArticleController extends Controller
         $this->articleService = $articleService;
     }
 
-    public function index(Request $request){
+    public function getAll(Request $request){
         return $this->successResponse(
             $this->articleService->obtainArticles($request)
         );

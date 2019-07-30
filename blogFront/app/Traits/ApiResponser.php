@@ -17,7 +17,15 @@ trait ApiResponser{
      * @return \Illuminate\Http\JsonResponse
      */
     public function successResponse($data, $code = Response::HTTP_OK){
-        return \response($data, $code)->header('Content-Type', 'application/json');
+        $result =  \response($data, $code)->header('Content-Type', 'application/json');
+
+        $data = json_decode($result->getContent());
+
+        if(isset($data->data) && $data->data){
+            return $data;
+        }
+
+        return false;
     }
 
     /**

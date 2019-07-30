@@ -75,11 +75,9 @@ class RegisterController extends AuthorController
 
         $author = ["username" => $data['name']];
 
-        $result = $this->store($author);
+        $authorStored = $this->store($author);
 
-        $authorStored = json_decode($result->getContent());
-
-        if(isset($authorStored->data) && $authorStored->data){
+        if($authorStored){
             $user->client_id = $authorStored->data->id;
             $user->save();
             return $user;

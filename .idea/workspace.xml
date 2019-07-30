@@ -2,33 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d25944a-d039-4f35-8d39-371195c8a53d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blogFront/app/Api/ArticleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogFront/app/Api/AuthorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogFront/app/Helpers/Acl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogFront/app/Services/ArticleService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogFront/app/Services/AuthorService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogFront/app/Traits/ConsumesExternalService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogFront/resources/views/layouts/blog/includes/admin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogFront/resources/views/unauthorized.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogAuthorApi/app/Author.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogAuthorApi/app/Author.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogAuthorApi/app/Http/Controllers/AuthorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogAuthorApi/app/Http/Controllers/AuthorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogAuthorApi/database/factories/ModelFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogAuthorApi/database/factories/ModelFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogAuthorApi/database/migrations/2019_07_28_071716_create_authors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogAuthorApi/database/migrations/2019_07_28_071716_create_authors_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/app/Http/Controllers/Admin/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/app/Http/Controllers/Admin/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogFront/app/Api/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/app/Api/ArticleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogFront/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/resources/views/admin/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/resources/views/layouts/admin/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/resources/views/layouts/admin/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/resources/views/layouts/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/resources/views/layouts/admin/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/resources/views/layouts/blog/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/resources/views/layouts/blog/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogFront/resources/views/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/resources/views/blog/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,17 +34,17 @@
           <entry key="env" value="11" />
           <entry key="gitignore" value="2" />
           <entry key="js" value="4" />
-          <entry key="php" value="151" />
+          <entry key="php" value="161" />
           <entry key="scss" value="2" />
           <entry key="stub" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="45" />
+          <entry key="Blade" value="46" />
           <entry key="CSS" value="1" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="106" />
+          <entry key="PHP" value="115" />
           <entry key="PLAIN_TEXT" value="19" />
           <entry key="SCSS" value="2" />
         </counts>
@@ -76,16 +55,16 @@
           <entry key="env" value="82" />
           <entry key="gitignore" value="30" />
           <entry key="js" value="19" />
-          <entry key="php" value="2642" />
+          <entry key="php" value="2933" />
           <entry key="scss" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="535" />
+          <entry key="Blade" value="633" />
           <entry key="CSS" value="54" />
           <entry key="JavaScript" value="19" />
-          <entry key="PHP" value="2107" />
+          <entry key="PHP" value="2300" />
           <entry key="PLAIN_TEXT" value="112" />
           <entry key="SCSS" value="30" />
         </counts>
@@ -100,61 +79,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/app/Api/AuthorController.php">
+        <entry file="file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
-                <element signature="e#44#72#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Auth/RegisterController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
-              <folding>
-                <element signature="e#45#58#0#PHP" expanded="true" />
+                <element signature="e#45#77#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php">
+        <entry file="file://$PROJECT_DIR$/blogFront/resources/views/blog/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/app/Services/AuthorService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/app/Traits/ConsumesExternalService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="306">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -215,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blogApiGateway/bootstrap/app.php" />
         <option value="$PROJECT_DIR$/blogApiGateway/vendor/laravel/passport/database/migrations/2016_06_01_000004_create_oauth_clients_table.php" />
         <option value="$PROJECT_DIR$/blogApiGateway/app/User.php" />
         <option value="$PROJECT_DIR$/blogApiGateway/app/Http/Controllers/UserController.php" />
@@ -230,7 +169,6 @@
         <option value="$PROJECT_DIR$/blogFront/app/User.php" />
         <option value="$PROJECT_DIR$/blogFront/config/auth.php" />
         <option value="$PROJECT_DIR$/blogFront/resources/views/blog/includes/add.post.blade.php" />
-        <option value="$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/IndexController.php" />
         <option value="$PROJECT_DIR$/blogFront/public/js/scripts.js" />
         <option value="$PROJECT_DIR$/blogFront/resources/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/blogFront/resources/js/app.js" />
@@ -243,7 +181,6 @@
         <option value="$PROJECT_DIR$/blogFront/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/blogFront/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/blogFront/resources/views/blog/includes/admin.blade.php" />
-        <option value="$PROJECT_DIR$/blogFront/resources/views/blog/index.blade.php" />
         <option value="$PROJECT_DIR$/blogFront/resources/views/layouts/blog/app.blade.php" />
         <option value="$PROJECT_DIR$/blogFront/resources/views/layouts/blog/includes/admin.blade.php" />
         <option value="$PROJECT_DIR$/blogFront/app/Helpers/Helper.php" />
@@ -259,13 +196,16 @@
         <option value="$PROJECT_DIR$/blogFront/routes/web.php" />
         <option value="$PROJECT_DIR$/blogAuthorApi/app/Http/Controllers/AuthorController.php" />
         <option value="$PROJECT_DIR$/blogAuthorApi/database/migrations/2019_07_28_071716_create_authors_table.php" />
-        <option value="$PROJECT_DIR$/blogFront/database/migrations/2014_10_12_000000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php" />
         <option value="$PROJECT_DIR$/blogFront/app/Traits/ConsumesExternalService.php" />
-        <option value="$PROJECT_DIR$/blogFront/app/Api/ArticleController.php" />
         <option value="$PROJECT_DIR$/blogFront/app/Api/AuthorController.php" />
         <option value="$PROJECT_DIR$/blogFront/.gitignore" />
+        <option value="$PROJECT_DIR$/blogFront/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/blogFront/app/Api/ArticleController.php" />
+        <option value="$PROJECT_DIR$/blogApiGateway/app/traits/ApiResponser.php" />
         <option value="$PROJECT_DIR$/blogFront/app/Http/Controllers/Auth/RegisterController.php" />
+        <option value="$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php" />
+        <option value="$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/IndexController.php" />
+        <option value="$PROJECT_DIR$/blogFront/resources/views/blog/index.blade.php" />
       </list>
     </option>
   </component>
@@ -368,11 +308,6 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blogAuthorApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="blogFront" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -417,7 +352,50 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="blogFront" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogFront" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Traits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogFront" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogFront" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogFront" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogFront" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogFront" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -506,19 +484,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564385729175</updated>
-      <workItem from="1564385730556" duration="27253000" />
+      <workItem from="1564385730556" duration="28378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27253000" />
+    <option name="totallyTimeSpent" value="28378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -528,7 +506,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39973083" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -554,15 +532,50 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Auth/RegisterController.php</url>
-          <line>81</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/blogApiGateway/app/traits/ApiResponser.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>$post</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$post = $posts[0]</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$posts-&gt;data-&gt;data</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$posts-&gt;data</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$posts</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$authorStored-&gt;data-&gt;id</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$authorStored-&gt;data</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>json_decode($authorStored-&gt;getContent())</expression-string>
         <language-id>PHP</language-id>
@@ -578,60 +591,9 @@
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>$authorStored-&gt;data</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>$authorStored[&quot;data&quot;]</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>$this-&gt;authorService</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>$user-&gt;id</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>\Laravel\Passport\Client::all()</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>$client = \Laravel\Passport\Client::where('password_client', 1)-&gt;first();</expression-string>
-        <language-id>PHP</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blogFrontSinAuth/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/resources/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/resources/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31553" selection-start-line="3" selection-start-column="31553" selection-end-line="3" selection-end-column="31553" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogFront/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -688,13 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/resources/views/blog/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -813,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Routing/Router.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -855,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogApiGateway/app/Services/ArticleService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -880,16 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/app/Api/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#40#72#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,15 +874,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogFront/app/Traits/ConsumesExternalService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="311">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -962,20 +886,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Container/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="674" selection-start-line="674" selection-end-line="674" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogApiGateway/app/traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="18" column="70" lean-forward="true" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Auth/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+        <state relative-caret-position="180">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="e#45#58#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php">
+    <entry file="file://$PROJECT_DIR$/blogFront/app/Api/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="148">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#45#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/resources/views/blog/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
