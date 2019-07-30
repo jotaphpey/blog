@@ -46,9 +46,15 @@ class AuthorController extends Controller
         );
     }
 
-    public function update(Request $request, $author){
+    public function update($data, $author){
         return $this->successResponse(
-            $this->authorService->updateAuthor($request->all() ,$author)
+            $this->authorService->updateAuthor($data ,$author)
+        );
+    }
+
+    public function updateImage($request, $author){
+        return $this->successResponse(
+            $this->authorService->updateAuthorImage($request->all(), $author)
         );
     }
 

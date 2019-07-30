@@ -27,10 +27,13 @@ trait ConsumesExternalService{
             $headers["Authorization"] = $this->secret;
         }
 
-        $response = $client->request($method, $this->baseUri . $requestUri, [
-            'form_params' => $formParams,
+        $form = [
             'headers' => $headers
-        ]);
+        ];
+
+        $form['form_params'] = $formParams;
+
+        $response = $client->request($method, $this->baseUri . $requestUri, $form);
 
         return $response->getBody()->getContents();
     }

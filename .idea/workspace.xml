@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d25944a-d039-4f35-8d39-371195c8a53d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blogFront/resources/views/blog/author/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/IndexController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/resources/views/blog/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/resources/views/blog/article/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/resources/views/blog/includes/addpost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/resources/views/blog/article/includes/addpost.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/resources/views/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/resources/views/blog/article/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogFront/resources/views/layouts/blog/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/resources/views/layouts/blog/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogAuthorApi/app/Http/Controllers/AuthorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogAuthorApi/app/Http/Controllers/AuthorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogAuthorApi/database/migrations/2019_07_28_071716_create_authors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogAuthorApi/database/migrations/2019_07_28_071716_create_authors_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogAuthorApi/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogAuthorApi/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogFront/app/Api/AuthorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/app/Api/AuthorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/Author/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/Author/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogFront/app/Services/AuthorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/app/Services/AuthorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogFront/app/Traits/ConsumesExternalService.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/app/Traits/ConsumesExternalService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogFront/resources/views/blog/author/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/resources/views/blog/author/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogFront/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/blogFront/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,21 +36,22 @@
           <entry key="auth" value="1" />
           <entry key="config" value="1" />
           <entry key="css" value="2" />
-          <entry key="env" value="11" />
+          <entry key="env" value="12" />
           <entry key="gitignore" value="2" />
           <entry key="js" value="7" />
-          <entry key="php" value="230" />
+          <entry key="log" value="11" />
+          <entry key="php" value="281" />
           <entry key="scss" value="2" />
           <entry key="stub" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="58" />
+          <entry key="Blade" value="60" />
           <entry key="CSS" value="2" />
           <entry key="JavaScript" value="7" />
-          <entry key="PHP" value="172" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="PHP" value="221" />
+          <entry key="PLAIN_TEXT" value="31" />
           <entry key="SCSS" value="2" />
         </counts>
       </usages-collector>
@@ -57,16 +61,16 @@
           <entry key="env" value="82" />
           <entry key="gitignore" value="30" />
           <entry key="js" value="467" />
-          <entry key="php" value="4123" />
+          <entry key="php" value="6471" />
           <entry key="scss" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="1041" />
+          <entry key="Blade" value="1258" />
           <entry key="CSS" value="61" />
           <entry key="JavaScript" value="467" />
-          <entry key="PHP" value="3082" />
+          <entry key="PHP" value="5213" />
           <entry key="PLAIN_TEXT" value="112" />
           <entry key="SCSS" value="30" />
         </counts>
@@ -80,68 +84,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/Article/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="25" selection-end-column="63" />
-              <folding>
-                <element signature="e#53#85#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/resources/views/blog/article/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/resources/views/blog/author/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/resources/views/layouts/blog/includes/admin.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/resources/views/layouts/blog/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/Author/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="115">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
               <folding>
                 <element signature="e#52#98#0#PHP" expanded="true" />
               </folding>
@@ -150,13 +97,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogFront/app/Exceptions/Handler.php">
+        <entry file="file://$PROJECT_DIR$/blogFront/resources/views/blog/author/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
               <folding>
-                <element signature="e#34#48#0#PHP" expanded="true" />
+                <element signature="e#449#481#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogFront/app/Api/AuthorController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="50" column="52" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="52" />
+              <folding>
+                <element signature="e#44#72#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogFront/app/Services/AuthorService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogFront/app/Traits/ConsumesExternalService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#111#133#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogAuthorApi/app/Http/Controllers/AuthorController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -172,15 +170,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Editor-editor</find>
-      <find>.cs</find>
-      <find>http:</find>
-      <find>.png</find>
-      <find>INTERFACE</find>
-      <find>Interface</find>
-      <find>Server Migration</find>
-      <find>ArticleService</find>
-      <find>AUTHORS_SERVICE_BASE_URI</find>
       <find>@register</find>
       <find>AuthenticatesAndRegistersUsers</find>
       <find>base_uri</find>
@@ -195,13 +184,22 @@
       <find>txtEditor</find>
       <find>csr</find>
       <find>go s</find>
-      <find>Auth</find>
       <find>errorResponse</find>
       <find>guest</find>
       <find>ApiResponser</find>
       <find>Logout</find>
       <find>view</find>
       <find>Blog\IndexController</find>
+      <find>Auth</find>
+      <find>Guzzle</find>
+      <find>$file</find>
+      <find>$formParams</find>
+      <find>Inpu</find>
+      <find>$input</find>
+      <find>parse_raw_http_request</find>
+      <find>getImageContent</find>
+      <find>update</find>
+      <find>$formMultipart</find>
     </findStrings>
     <replaceStrings>
       <replace>Blog\Article\IndexController</replace>
@@ -210,9 +208,9 @@
       <dir>C:\xampp\htdocs\blog\blogApiGateway</dir>
       <dir>C:\xampp\htdocs\blog\blogFront\resources\views\layouts</dir>
       <dir>C:\xampp\htdocs\blog\blogAuthorApi</dir>
-      <dir>C:\xampp\htdocs\blog\blogFront</dir>
       <dir>C:\xampp\htdocs\blog\blogFront\resources\views</dir>
       <dir>C:\xampp\htdocs\blog</dir>
+      <dir>C:\xampp\htdocs\blog\blogFront</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -221,11 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blogApiGateway/database/migrations/2019_07_29_123106_create_users_table.php" />
-        <option value="$PROJECT_DIR$/blogFront/app/User.php" />
-        <option value="$PROJECT_DIR$/blogFront/config/auth.php" />
-        <option value="$PROJECT_DIR$/blogFront/resources/views/blog/includes/add.post.blade.php" />
-        <option value="$PROJECT_DIR$/blogFront/public/js/scripts.js" />
         <option value="$PROJECT_DIR$/blogFront/resources/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/blogFront/resources/js/app.js" />
         <option value="$PROJECT_DIR$/blogFront/resources/js/editor.css" />
@@ -246,11 +239,7 @@
         <option value="$PROJECT_DIR$/blogFront/resources/views/admin/index.blade.php" />
         <option value="$PROJECT_DIR$/blogFront/config/services.php" />
         <option value="$PROJECT_DIR$/blogFront/app/Http/Controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/blogAuthorApi/app/Http/Controllers/AuthorController.php" />
-        <option value="$PROJECT_DIR$/blogAuthorApi/database/migrations/2019_07_28_071716_create_authors_table.php" />
-        <option value="$PROJECT_DIR$/blogFront/app/Api/AuthorController.php" />
         <option value="$PROJECT_DIR$/blogFront/.gitignore" />
-        <option value="$PROJECT_DIR$/blogFront/app/Api/ArticleController.php" />
         <option value="$PROJECT_DIR$/blogApiGateway/app/traits/ApiResponser.php" />
         <option value="$PROJECT_DIR$/blogFront/public/js/app.js" />
         <option value="$PROJECT_DIR$/blogFront/database/migrations/2014_10_12_000000_create_users_table.php" />
@@ -261,16 +250,25 @@
         <option value="$PROJECT_DIR$/blogFront/resources/css/editor.css" />
         <option value="$PROJECT_DIR$/blogFront/resources/views/blog/index.blade.php" />
         <option value="$PROJECT_DIR$/blogFront/resources/js/scripts.js" />
-        <option value="$PROJECT_DIR$/blogFront/app/Traits/ConsumesExternalService.php" />
-        <option value="$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php" />
         <option value="$PROJECT_DIR$/blogAuthorApi/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/blogFront/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/blogFront/resources/views/layouts/blog/app.blade.php" />
         <option value="$PROJECT_DIR$/blogFront/resources/views/blog/article/index.blade.php" />
-        <option value="$PROJECT_DIR$/blogFront/resources/views/blog/author/index.blade.php" />
         <option value="$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/IndexController.php" />
         <option value="$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/Article/IndexController.php" />
+        <option value="$PROJECT_DIR$/blogAuthorApi/database/migrations/2019_07_28_071716_create_authors_table.php" />
+        <option value="$PROJECT_DIR$/blogFront/app/Api/ArticleController.php" />
+        <option value="$PROJECT_DIR$/blogAuthorApi/routes/web.php" />
+        <option value="$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php" />
+        <option value="$PROJECT_DIR$/blogArticlesApi/app/traits/ApiResponser.php" />
         <option value="$PROJECT_DIR$/blogFront/routes/web.php" />
+        <option value="$PROJECT_DIR$/blogFront/storage/framework/views/29de454ae634dd72cb98dc0b16d12742830e6f07.php" />
+        <option value="$PROJECT_DIR$/blogFront/resources/views/blog/author/index.blade.php" />
+        <option value="$PROJECT_DIR$/blogFront/app/Traits/ConsumesExternalService.php" />
+        <option value="$PROJECT_DIR$/blogFront/app/Services/AuthorService.php" />
+        <option value="$PROJECT_DIR$/blogAuthorApi/storage/logs/lumen-2019-07-30.log" />
+        <option value="$PROJECT_DIR$/blogFront/app/Api/AuthorController.php" />
+        <option value="$PROJECT_DIR$/blogAuthorApi/app/Http/Controllers/AuthorController.php" />
         <option value="$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/Author/IndexController.php" />
       </list>
     </option>
@@ -373,24 +371,6 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blogArticlesApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blogArticlesApi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blogArticlesApi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="blogAuthorApi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -404,7 +384,28 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="blogAuthorApi" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogAuthorApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogAuthorApi" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogAuthorApi" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -486,29 +487,7 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="blogFront" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blogFront" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blogFront" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blogFront" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -535,14 +514,6 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="author" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blogFront" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -600,29 +571,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564385729175</updated>
-      <workItem from="1564385730556" duration="36246000" />
+      <workItem from="1564385730556" duration="49232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36246000" />
+    <option name="totallyTimeSpent" value="49232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -652,125 +623,69 @@
           <line>19</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/Author/IndexController.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/Author/IndexController.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>Auth::user()-&gt;author_id</expression-string>
+        <expression-string>$form['form_params'] = $formParams;</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$article-&gt;data-&gt;author_id</expression-string>
+        <expression-string>file_get_contents($request-&gt;image-&gt;getPath().DIRECTORY_SEPARATOR.$request-&gt;image-&gt;getFileName())</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$request-&gt;all()</expression-string>
+        <expression-string>$request-&gt;image-&gt;getPath().DIRECTORY_SEPARATOR.$request-&gt;image-&gt;getFileName()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$request-&gt;author_id</expression-string>
+        <expression-string>$request-&gt;image-&gt;openFile()-&gt;fread($request-&gt;image-&gt;getPath().DIRECTORY_SEPARATOR.$request-&gt;image-&gt;getFileName());</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$request-&gt;slug</expression-string>
+        <expression-string>$request-&gt;image</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$request-&gt;title</expression-string>
+        <expression-string>$request-&gt;image-&gt;getPath()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$request-&gt;body</expression-string>
+        <expression-string>$request-&gt;image-&gt;getSize()</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>$request-&gt;author_id = Auth::user()-&gt;author_id;</expression-string>
+        <expression-string>$request-&gt;image-&gt;openFile()-&gt;fread($request-&gt;image-&gt;getSize())</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Auth::user()</expression-string>
+        <expression-string>$response-&gt;getBody()-&gt;getContents();</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blogAuthorApi/app/Http/Controllers/AuthorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogApiGateway/app/Services/ArticleService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="46" column="24" selection-start-line="46" selection-end-line="46" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogApiGateway/app/traits/ConsumesExternalService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogAuthorApi/app/Http/Middleware/AuthenticateAccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="57" />
-          <folding>
-            <element signature="e#39#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogAuthorApi/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/vendor/symfony/http-foundation/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="239" selection-start-line="239" selection-end-line="239" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Container/Container.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -843,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/app/Services/AuthorService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogFront/resources/views/blog/article/includes/addpost.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -913,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogAuthorApi/app/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -940,27 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/app/Traits/ConsumesExternalService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="e#111#133#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="1123" selection-start-line="1123" selection-end-line="1123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -1037,13 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/resources/views/blog/author/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1051,44 +928,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/blogFront/app/Api/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="374">
+          <caret line="60" column="74" selection-start-line="60" selection-start-column="74" selection-end-line="60" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/app/Api/AuthorController.php">
+    <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="61" />
+        <state relative-caret-position="139">
+          <caret line="1522" selection-start-line="1522" selection-end-line="1522" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="51" column="55" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogAuthorApi/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogAuthorApi/database/migrations/2019_07_28_071716_create_authors_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogArticlesApi/app/traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="23" column="97" selection-start-line="23" selection-start-column="97" selection-end-line="23" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/storage/framework/views/29de454ae634dd72cb98dc0b16d12742830e6f07.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/app/Traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/resources/views/blog/author/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
           <folding>
-            <element signature="e#44#72#0#PHP" expanded="true" />
+            <element signature="e#449#481#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogFront/app/Api/ArticleController.php">
+    <entry file="file://$PROJECT_DIR$/blogFront/app/Services/AuthorService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="148">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blogAuthorApi/storage/logs/lumen-2019-07-30.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/Article/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="25" selection-end-column="63" />
+        <state relative-caret-position="208">
+          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
           <folding>
             <element signature="e#53#85#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/app/Api/AuthorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="50" column="52" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="52" />
+          <folding>
+            <element signature="e#44#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogAuthorApi/app/Http/Controllers/AuthorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogFront/app/Traits/ConsumesExternalService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#111#133#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blogFront/app/Http/Controllers/Blog/Author/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="115">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
           <folding>
             <element signature="e#52#98#0#PHP" expanded="true" />
           </folding>

@@ -27,6 +27,10 @@ trait ApiResponser{
             return $data;
         }
 
+        if($result->getStatusCode() == 200){
+            return true;
+        }
+
         return false;
     }
 

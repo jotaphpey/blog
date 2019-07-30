@@ -68,6 +68,12 @@ class AuthorService{
         );
     }
 
+    public function updateAuthorImage($data, $author){
+        return $this->performeRequest(
+            "patch", "/authors/{$author}", $data
+        );
+    }
+
     public function deleteAuthor($author){
         return $this->performeRequest(
             "delete", "/authors/{$author}"

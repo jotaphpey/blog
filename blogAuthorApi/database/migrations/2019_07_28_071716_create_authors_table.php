@@ -17,7 +17,7 @@ class CreateAuthorsTable extends Migration
             $table->bigIncrements('id');
             $table->string('username');
             $table->string("bio")->nullable();
-            $table->string("image")->nullable();
+            $table->binary("image")->nullable();
             $table->string("following")->default(false);
 
             $table->timestamps();
