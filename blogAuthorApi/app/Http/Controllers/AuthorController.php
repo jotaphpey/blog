@@ -39,8 +39,6 @@ class AuthorController extends Controller
 
         $rules = [
             'username' => 'required|max:191',
-            'gender' => 'required|max:191|in:male,female',
-            'country' => 'required|max:191',
         ];
 
         $this->validate($request, $rules);
@@ -66,8 +64,6 @@ class AuthorController extends Controller
     public function update(Request $request, $author){
         $rules = [
             'username' => 'max:191',
-            'gender' => 'max:191|in:male,female',
-            'country' => 'max:191',
         ];
 
         $this->validate($request, $rules);

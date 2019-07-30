@@ -7,8 +7,11 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use GuzzleHttp\Client;
+use App\Services\AuthorService;
+use App\Http\Controllers\Api\AuthorController;
 
-class RegisterController extends Controller
+class RegisterController extends AuthorController
 {
     /*
     |--------------------------------------------------------------------------
@@ -35,8 +38,9 @@ class RegisterController extends Controller
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(AuthorService $authorService)
     {
+        parent::__construct($authorService);
         $this->middleware('guest');
     }
 
@@ -63,10 +67,24 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
+        $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+
+        $author = ["username" => $data['name']];
+
+        $result = $this->store($author);
+
+        $authorStored = json_decode($result->getContent());
+
+        if(isset($authorStored->data) && $authorStored->data){
+            $user->client_id = $authorStored->data->id;
+            $user->save();
+            return $user;
+        }
+
+        return false;
     }
 }

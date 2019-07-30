@@ -13,9 +13,7 @@
 
 $factory->define(App\Author::class, function (Faker\Generator $faker) {
     return [
-        'gender' => $gender = $faker->randomElement(['male', 'female']),
-        'username' => $faker->name($gender),
-        'country' => $faker->country,
+        'username' => $faker->name(),
         'bio' => $faker->sentence,
         'image' => $faker->imageUrl(640,480),
         'following' => $faker->boolean,

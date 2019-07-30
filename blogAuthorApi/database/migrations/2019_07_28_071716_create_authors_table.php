@@ -16,8 +16,6 @@ class CreateAuthorsTable extends Migration
         Schema::create('authors', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('username');
-            $table->string('gender');
-            $table->string('country');
             $table->string("bio")->nullable();
             $table->string("image")->nullable();
             $table->string("following")->default(false);

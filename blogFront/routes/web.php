@@ -19,4 +19,7 @@ Route::get('/home', 'Blog\IndexController@index')->name('blog');
 
 Route::get('/add', 'Blog\IndexController@add')->name('blog-add')->middleware('auth');
 
-Route::get('/admin', 'Admin\IndexController@index')->name('admin')->middleware('auth');
+
+Route::group(['middleware' => 'App\Http\Middleware\CheckRole'], function() {
+    Route::get('/admin', 'Admin\IndexController@index')->name('admin')->middleware('auth');
+});
