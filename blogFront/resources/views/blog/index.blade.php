@@ -1,6 +1,8 @@
 @extends('layouts.blog.app')
 
 @section('content')
+    @include('blog.includes.addpost')
+
     <div class="row">
         <div class="col-8">
             <div class="card">

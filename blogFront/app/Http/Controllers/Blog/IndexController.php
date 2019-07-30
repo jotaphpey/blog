@@ -11,4 +11,9 @@ class IndexController extends Controller
 
         return view('blog.index');
     }
+
+    public function add(){
+
+        return view('blog.add');
+    }
 }

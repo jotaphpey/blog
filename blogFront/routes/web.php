@@ -11,12 +11,12 @@
 |
 */
 
-Route::get('/login', 'Auth\AuthController@login')->name('login');
-Route::get('/register', 'Auth\AuthController@register')->name('register');
+Route::get('/', 'Blog\IndexController@index')->name('home');
 
+Auth::routes();
 
-/* Blog */
-Route::get('/', 'Blog\IndexController@index')->name('blog');
+Route::get('/home', 'Blog\IndexController@index')->name('blog');
 
-/* Admin */
-Route::get('/admin', 'Admin\IndexController@index')->name('admin');
+Route::get('/add', 'Blog\IndexController@add')->name('blog-add')->middleware('auth');
+
+Route::get('/admin', 'Admin\IndexController@index')->name('admin')->middleware('auth');
