@@ -25,7 +25,22 @@ class AddVarGlobal
     public function getAvatar(){
         $authorService = new AuthorService();
         $AuthorController = new AuthorController($authorService);
-        $author = $AuthorController->show(Auth::user()->author_id);
-        \View::share('avatar', $author->data->image);
+        $user = Auth::user();
+        $avatar = "";
+        if($user){
+            $author = $AuthorController->show($user->author_id);
+            if($author->data->image){
+                $avatar = $author->data->image;
+            }else{
+                $img_path = public_path("images").DIRECTORY_SEPARATOR."default.png";
+                $img_data = file_get_contents($img_path);
+                $type = pathinfo($img_path, PATHINFO_EXTENSION);
+                $base64 = base64_encode($img_data);
+                $avatar = $base64;
+            }
+
+        }
+
+        \View::share('avatar', $avatar);
     }
 }
