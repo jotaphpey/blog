@@ -28,7 +28,7 @@ class ArticleController extends Controller
     public function index(Request $request){
         $paginate = $request->input("paginate",  10);
         return $this->successResponse(
-            Article::paginate($paginate)
+            Article::orderBy('id', 'desc')->paginate($paginate)
         );
     }
 

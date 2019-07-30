@@ -326,3 +326,7 @@ h1{
 .thumbnails.padding-top img{
     width: 80px;
 }
+
+.blog-post img{
+    max-width: 690px;
+}

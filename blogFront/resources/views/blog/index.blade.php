@@ -1,6 +1,16 @@
 @extends('layouts.blog.app')
 
 @section('content')
+    @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+
     @include('blog.includes.addpost')
 
     <div class="row">
@@ -18,8 +28,14 @@
                     </div>
 
                     <hr>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
+                    @guest
+
+                    @else
+                        @if (Auth::user()->author_id ==  $post->author_id )
+                            <a href="#" class="edit-post btn btn-outline-warning">Edit</a>
+                            <a href="#" class="delete-post btn btn-outline-danger">Delete</a>
+                        @endif
+                    @endguest
                 </div>
             </div>
             @endforeach

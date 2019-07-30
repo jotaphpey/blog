@@ -17007,3 +17007,7 @@ h1 {
   width: 80px;
 }
 
+.blog-post img {
+  max-width: 690px;
+}
+

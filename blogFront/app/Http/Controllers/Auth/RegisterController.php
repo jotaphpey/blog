@@ -78,7 +78,7 @@ class RegisterController extends AuthorController
         $authorStored = $this->store($author);
 
         if($authorStored){
-            $user->client_id = $authorStored->data->id;
+            $user->author_id = $authorStored->data->id;
             $user->save();
             return $user;
         }

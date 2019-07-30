@@ -7,6 +7,7 @@ use App\Services\AuthorService;
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\Api\ArticleController;
+use Illuminate\Support\Facades\Auth;
 
 class IndexController extends ArticleController
 {
@@ -28,5 +29,26 @@ class IndexController extends ArticleController
     public function add(){
 
         return view('blog.add');
+    }
+
+    public function create(Request $request){
+
+        $result = [
+            "success" => false,
+            "message" => "Error, article not saved",
+        ];
+
+        $request->merge([
+            "slug"=>str_replace(" ", "-", strtolower($request->title)),
+            "author_id"=> Auth::user()->author_id,
+        ]);
+
+        $store = $this->store($request);
+
+        if($store){
+            $result["success"] = true;
+        }
+
+        return $result;
     }
 }
