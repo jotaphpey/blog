@@ -11,15 +11,17 @@
 |
 */
 
-Route::get('/', 'Blog\IndexController@index')->name('home');
+Route::get('/', 'Blog\Article\IndexController@index')->name('home');
 
 Auth::routes();
 
-Route::get('/home', 'Blog\IndexController@index')->name('blog');
+Route::get('/home', 'Blog\Article\IndexController@index')->name('blog');
+Route::get('/profile', 'Blog\Author\IndexController@index')->name('profile');
 
-Route::get('/add', 'Blog\IndexController@add')->name('blog-add')->middleware('auth');
-Route::post('/create', 'Blog\IndexController@create')->name('blog-create')->middleware('auth');
-Route::post('/delete-article', 'Blog\IndexController@delete')->name('blog-delete')->middleware('auth');
+
+Route::get('/add', 'Blog\Article\IndexController@add')->name('blog-add')->middleware('auth');
+Route::post('/create', 'Blog\Article\IndexController@create')->name('blog-create')->middleware('auth');
+Route::post('/delete-article', 'Blog\Article\IndexController@delete')->name('blog-delete')->middleware('auth');
 
 
 

@@ -11,7 +11,7 @@
         </div>
     @endif
 
-    @include('blog.includes.addpost')
+    @include('blog.article.includes.addpost')
 
     <div class="row">
 

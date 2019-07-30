@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Blog;
+namespace App\Http\Controllers\Blog\Article;
 
 use App\Services\ArticleService;
 use App\Services\AuthorService;
@@ -23,14 +23,14 @@ class IndexController extends ArticleController
             $posts = $posts->data->data;
         }
 
-        return view('blog.index', ["posts" => $posts]);
+        return view('blog.article.index', ["posts" => $posts]);
     }
 
 
 
     public function add(){
 
-        return view('blog.add');
+        return view('blog.article.add');
     }
 
     public function create(Request $request){
@@ -79,3 +79,4 @@ class IndexController extends ArticleController
         return $result;
     }
 }
+
