@@ -8,6 +8,8 @@
 namespace App\Traits;
 
 use GuzzleHttp\Client;
+use Mockery\Exception;
+
 
 trait ConsumesExternalService{
 

@@ -3,6 +3,8 @@
 namespace App\Traits;
 
 use Illuminate\Http\Response;
+
+
 /**
  * Created by PhpStorm.
  * User: jp
@@ -34,7 +36,7 @@ trait ApiResponser{
      * @return \Illuminate\Http\JsonResponse
      */
     public function errorResponse($message, $code){
-        return \response()->json(['error' => $message, 'code' => $code], $code);
+        return ["success" => false, "message" => $message, "code" => $code];
     }
 
     /**

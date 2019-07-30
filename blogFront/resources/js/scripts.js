@@ -1,3 +1,9 @@
+$.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
+});
+
 $(document).ready( function() {
     $("#body").Editor();
 
@@ -16,6 +22,22 @@ $(document).ready( function() {
                 $(".errors-create").text(res.error);
             }
         });
+    });
+
+    $(".delete-post").click(function(){
+        var article = $(this);
+        if (confirm('Are you sure you want to delete this article?')) {
+            $.post("/delete-article", {
+                article: article.attr("post-id"),
+            }, function (data) {
+                if (data.success) {
+                    alert("Article deleted");
+                    article.parents(".card").remove();
+                } else {
+                    alert(data.message);
+                }
+            });
+        }
     })
 
 });

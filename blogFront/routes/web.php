@@ -19,6 +19,8 @@ Route::get('/home', 'Blog\IndexController@index')->name('blog');
 
 Route::get('/add', 'Blog\IndexController@add')->name('blog-add')->middleware('auth');
 Route::post('/create', 'Blog\IndexController@create')->name('blog-create')->middleware('auth');
+Route::post('/delete-article', 'Blog\IndexController@delete')->name('blog-delete')->middleware('auth');
+
 
 
 Route::group(['middleware' => 'App\Http\Middleware\CheckRole'], function() {

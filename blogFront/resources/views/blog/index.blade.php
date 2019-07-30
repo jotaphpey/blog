@@ -32,8 +32,8 @@
 
                     @else
                         @if (Auth::user()->author_id ==  $post->author_id )
-                            <a href="#" class="edit-post btn btn-outline-warning">Edit</a>
-                            <a href="#" class="delete-post btn btn-outline-danger">Delete</a>
+                            <!--<a href="#" class="edit-post btn btn-outline-warning">Edit</a>-->
+                            <a href="#" class="delete-post btn btn-outline-danger" post-id="{{$post->id}}">Delete</a>
                         @endif
                     @endguest
                 </div>

@@ -12,6 +12,7 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 use App\traits\ApiResponser;
 use Illuminate\Http\Response;
 
+
 class Handler extends ExceptionHandler
 {
     use ApiResponser;
